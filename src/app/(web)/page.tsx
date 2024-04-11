@@ -11,7 +11,8 @@ import React from "react";
 const Home = async()=> {
  
     const featuredRoom = await getFeaturedRoom();
-    console.log(featuredRoom)
+    
+    // throw new Error('Something went worng');
 
   return (
     <>
